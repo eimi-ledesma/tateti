@@ -74,7 +74,8 @@ public class Tateti {
 			}
 		}
 
-		if (count >= cdadMovimientos) {
+		if (count >= cdadMovimientos && !conGanadorFila(tateti) && !conGanadorColumna(tateti)
+				&& !conGanadorDiagonal(tateti)) {
 			System.out.println("\n¡No hay más movimientos para hacer!");
 			System.out.println("\n¡No hay ganador en esta partida!");
 		}
