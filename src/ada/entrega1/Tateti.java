@@ -3,7 +3,7 @@ package ada.entrega1;
 import java.util.Scanner;
 
 /*
- * DEVELOPED BY EIMI LEDESMA
+ * DEVELOPED BY EIMI LEDESMA 
  * 
  * */
 public class Tateti {
